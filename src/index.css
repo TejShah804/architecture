@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-neptune-text bg-white antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-neptune-green;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.clip-path-slant {
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
